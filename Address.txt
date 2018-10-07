@@ -1,0 +1,10 @@
+public class Array {
+	public static void main(String[] args) {
+		String cString = "Hello word!";
+		String aString ;
+		aString = cString ;
+		System.out.println(cString.hashCode());
+		System.out.println(aString.hashCode());
+		
+	}
+}

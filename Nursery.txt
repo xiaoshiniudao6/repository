@@ -1,0 +1,14 @@
+public class Nursery {
+	public static void main(String[] args) {
+		for(int i = 99;i>=1;i--){
+			if(i>1){
+				System.out.println(i+" "+"bottles of beer on the wall,"+i+" "+"bottles of beer.");
+				System.out.println("Take one down.");
+				System.out.println("Pass it around.");
+				System.out.println((i-1)+" "+"bottles od beer on the wall.");
+			}else{
+				System.out.println("No more bottles of beer on the wall");
+			}
+		}
+	}
+}
